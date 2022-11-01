@@ -24,7 +24,6 @@ function App() {
     const luckyNum = randFrom(result.length);
     result[luckyNum].hasItem = true;
     setItems(result);
-    console.log(result);
   };
 
   const openCell = (id: number) => {
